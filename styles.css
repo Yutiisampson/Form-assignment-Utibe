@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(195, 195, 255);
+  }
+  
+  form {
+    background-color: LemonChiffon;
+  }
+  
+  h1 {
+    color:white; text-align: center; background-color:  royalblue;
+  }
+  
+  input[type="radio"] {
+    background-color: SkyBlue;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] 
+  {
+    background-color: rgb(204, 193, 192); width: 8cm;
+  }
+  
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover {
+  border-color: gray; background-color: rgb(184, 184, 184);
+}
+ 
+label[for="1"]:hover{color: blue;}
+label[for="2"]:hover{color: blue;}
+label[for="3"]:hover{color: blue;}
+label[for="4"]:hover{color: blue;}
+label[for="5"]:hover{color: blue;}
+label[for="6"]:hover{color: blue;}
+
+  button {
+    background-color: rgb(22, 22, 202);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  button:hover{background-color: rgb(1, 48, 66);}
+
+  fieldset {
+    background-color: rgb(195, 195, 255);
+  }
+
+  h3{text-align: center;}
+  h3:hover {color: blue; text-transform: capitalize;}
