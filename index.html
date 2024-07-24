@@ -7,11 +7,12 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Your Tech Journey With Netisens</h1>
+    <h1>YOUR TECH JOURNEY WITH NETISENS</h1>
 
     <form action=""> 
-    <h3 style="font-family: serif;">Hi there, What tech skill do you want to learn?</h3>
+    <h3>Hi there, What tech skill do you want to learn?</h3>
 <fieldset>
+    <div class="radio-container">
     <input type="radio" id="frontend" name="tech_skill" checked>
     <label for="frontend">Frontend web development </label><br>
 
@@ -41,36 +42,38 @@
 
     <input type="radio" id="ai" name="tech_skill">
     <label for="ai">Machine learning/AI</label><br>
+</div>
 </fieldset>
 
-       <h3>How would you want your classes to hold</h3>
+       <h3>How would you want your classes to hold?</h3>
     <fieldset>
-       <input type="radio" name="class" id="onsite">
+        <div class="hold">
+       <input type="radio" name="class" id="onsite" checked>
        <label for="onsite">Onsite</label><br>
        <input type="radio" name="class" id="on_line">
        <label for="on_line">Online</label><br>
+       </div>
     </fieldset>
     
        <h3>Complete registration by filling this section:</h3>
        <fieldset>
-        <label for="1">Name:</label><br>
-        <input type="text" id="1" type="text" placeholder="enter your name" required><br>
-
-        <label for="2">Phone Number:</label><br>
-        <input type="number" id="2" placeholder="phone number" required><br>
-
-        <label for="3">E-mail Address:</label><br>
-        <input type="text" id="3" placeholder="e-mail" required><br>
-
-        <label for="4">Home Address:</label><br>
-        <input type="text" id="4" placeholder="home address" required><br>
-
-        <label for="5">City:</label><br>
-        <input type="text" id="5" placeholder="city" required><br>
-
-        <label for="6">State:</label><br>
-        <input type="text" id="6" placeholder="state" required><br>
-    </fieldset>
+              <label for="1">Name:</label>
+              <input type="text" id="1" placeholder="enter your name" required>
+              
+              <label for="3">E-mail Address:</label>
+              <input type="text" id="3" placeholder="enter your e-mail" required>
+              
+              <label for="5">City:</label>
+              <input type="text" id="5" placeholder="your city" required>
+              <label for="2">Phone Number:</label>
+              <input type="number" id="2" placeholder="enter your phone number" required>
+              
+              <label for="4">Home Address:</label>
+              <input type="text" id="4" placeholder="enter your home address" required>
+              
+              <label for="6">State:</label>
+              <input type="text" id="6" placeholder="state" required>
+</fieldset>
     <button>click</button>
     </form>
 

@@ -1,51 +1,85 @@
+m{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  }
+
+h1 {
+  font-size: 50px;
+  color: black; text-align: center;
+  background-color: blue; padding: 20px;
+}
+
+
 body {
-    background-color: rgb(195, 195, 255);
+    background-color: rgb(195, 195, 255); display: grid ;  font-family: Arial, sans-serif; font-size: 30px; 
+  
   }
   
   form {
-    background-color: LemonChiffon;
-  }
-  
-  h1 {
-    color:white; text-align: center; background-color:  royalblue;
-  }
-  
-  input[type="radio"] {
-    background-color: SkyBlue;
+    background-color: whitesmoke;   max-width: 600px;  border-radius: 10px;
+    margin: 40px auto;
   }
   
   input[type="text"],
-  input[type="number"],
-  input[type="email"] 
-  {
-    background-color: rgb(204, 193, 192); width: 8cm;
+  input[type="number"], input[type="email"] {width: 100%;
+    padding: 1% 3px; font-size: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;  
   }
-  
 input[type="text"]:hover,
 input[type="number"]:hover,
 input[type="email"]:hover {
   border-color: gray; background-color: rgb(184, 184, 184);
 }
  
-label[for="1"]:hover{color: blue;}
-label[for="2"]:hover{color: blue;}
-label[for="3"]:hover{color: blue;}
-label[for="4"]:hover{color: blue;}
-label[for="5"]:hover{color: blue;}
-label[for="6"]:hover{color: blue;}
+label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:hover,label[for="5"]:hover,label[for="6"]:hover{color: blue; }
 
-  button {
-    background-color: rgb(22, 22, 202);
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  button:hover{background-color: rgb(1, 48, 66);}
+ 
 
   fieldset {
     background-color: rgb(195, 195, 255);
+    padding: 20px; border-radius: 10px;
+  }
+  
+
+  fieldset input[name="tech_skill"] {
+    position: relative;  margin-right: 10px;
+    top: 2px;
   }
 
-  h3{text-align: center;}
+  h3{text-align: center;
+   margin-top: 20px; font-size: 25px;}
+
   h3:hover {color: blue; text-transform: capitalize;}
+
+  input[type="radio"] {
+    width: 20px;
+    height: 20px;  margin-right: 10px;
+  }
+
+  
+  .radio-container input[type="radio"] {
+  margin: 0 10px;
+}
+
+.hold, .radio-container label {
+  margin: 0 20px; width: 100%;
+  padding: 10px; font-size: 25px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.radio-container label:hover , .hold label:hover{color: blue; text-transform: capitalize}
+
+
+button {
+  background-color: rgb(22, 22, 202);
+  color: #fff;
+  padding: 10px 20px; font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer; 
+}
+button:hover{background-color: rgb(1, 48, 66);}
