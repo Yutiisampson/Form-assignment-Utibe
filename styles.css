@@ -6,28 +6,29 @@ m{
   }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;  margin: 0;
+  padding: 0; margin-top: 0;
   color: black; text-align: center;
-  background-color: blue; padding: 20px;
+  background-color: blue; 
 }
 
 
 body {
-    background-color: rgb(195, 195, 255); display: grid ;  font-family: Arial, sans-serif; font-size: 30px; 
+    background-color: rgb(195, 195, 255); display: grid ;  font-family: Arial, sans-serif; font-size: 20px; 
   
   }
   
   form {
     background-color: whitesmoke;   max-width: 600px;  border-radius: 10px;
-    margin: 40px auto;
+    margin: 40px auto; 
   }
   
   input[type="text"],
   input[type="number"], input[type="email"] {width: 100%;
-    padding: 1% 3px; font-size: 20px;
-    margin-bottom: 20px;
+    padding: 1% 10px; font-size: 20px; 
+    margin-bottom: 20px; width: 90%;
     border: 1px solid #ccc;
-    border-radius: 5px;  
+    border-radius: 5px;   margin: 0 20px
   }
 input[type="text"]:hover,
 input[type="number"]:hover,
@@ -35,6 +36,10 @@ input[type="email"]:hover {
   border-color: gray; background-color: rgb(184, 184, 184);
 }
  
+label[for="1"],label[for="2"],label[for="3"],label[for="4"],label[for="5"],label[for="6"]{
+  margin: 0 20px
+}
+
 label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:hover,label[for="5"]:hover,label[for="6"]:hover{color: blue; }
 
  
@@ -53,7 +58,6 @@ label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:ho
   h3{text-align: center;
    margin-top: 20px; font-size: 25px;}
 
-  h3:hover {color: blue; text-transform: capitalize;}
 
   input[type="radio"] {
     width: 20px;
@@ -62,24 +66,27 @@ label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:ho
 
   
   .radio-container input[type="radio"] {
-  margin: 0 10px;
+  margin:  10px;
 }
 
-.hold, .radio-container label {
-  margin: 0 20px; width: 100%;
-  padding: 10px; font-size: 25px;
+.hold input[type="radio"] {
+  margin:  10px;
+}
+
+.hold label, .radio-container label {
+   width: 100%;
+  padding: 10px; font-size: 20px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 5px; margin:  10px;
 }
 .radio-container label:hover , .hold label:hover{color: blue; text-transform: capitalize}
 
 
 button {
-  background-color: rgb(22, 22, 202);
+  background-color: rgb(60, 60, 243);
   color: #fff;
   padding: 10px 20px; font-size: 20px;
   border-radius: 5px;
   cursor: pointer; 
 }
-button:hover{background-color: rgb(1, 48, 66);}
+button:hover{background-color: rgb(43, 22, 233);}
