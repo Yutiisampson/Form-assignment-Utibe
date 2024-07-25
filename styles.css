@@ -6,37 +6,51 @@ m{
   }
 
 h1 {
-  font-size: 70px;  margin: 0;
-  padding: 0; margin-top: 0;
-  color: black; text-align: center;
+  font-size: 50px;  
+  margin: 0;
+  padding: 0%; 
+  color: black; 
+  text-align: center;
   background-color: blue; 
+
 }
 
 
 body {
-    background-color: rgb(195, 195, 255); display: grid ;  font-family: Arial, sans-serif; font-size: 20px; 
+    background-color: rgb(195, 195, 255); 
+    display: grid ;  
+    font-family: Arial, sans-serif; 
+    font-size: 20px; 
   
   }
   
   form {
-    background-color: whitesmoke;   max-width: 600px;  border-radius: 10px;
+    background-color: whitesmoke;   
+    max-width: 600px;  
+    border-radius: 10px;
     margin: 40px auto; 
   }
   
   input[type="text"],
   input[type="number"], input[type="email"] {width: 100%;
-    padding: 1% 10px; font-size: 20px; 
-    margin-bottom: 20px; width: 90%;
+    padding: 1% 10px; 
+    font-size: 20px; 
+    margin-bottom: 20px; 
+    width: 90%;
     border: 1px solid #ccc;
-    border-radius: 5px;   margin: 0 20px
+    border-radius: 5px;   
+    margin: 0 20px
   }
 input[type="text"]:hover,
 input[type="number"]:hover,
 input[type="email"]:hover {
-  border-color: gray; background-color: rgb(184, 184, 184);
+  border-color: gray; 
+  background-color: rgb(184, 184, 184);
 }
  
-label[for="1"],label[for="2"],label[for="3"],label[for="4"],label[for="5"],label[for="6"]{
+label[for="1"],label[for="2"],
+label[for="3"],label[for="4"],
+label[for="5"],label[for="6"]{
   margin: 0 20px
 }
 
@@ -46,7 +60,8 @@ label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:ho
 
   fieldset {
     background-color: rgb(195, 195, 255);
-    padding: 20px; border-radius: 10px;
+    padding: 20px; 
+    border-radius: 10px;
   }
   
 
@@ -61,7 +76,8 @@ label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:ho
 
   input[type="radio"] {
     width: 20px;
-    height: 20px;  margin-right: 10px;
+    height: 20px;  
+    margin-right: 10px;
   }
 
   
@@ -75,9 +91,9 @@ label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:ho
 
 .hold label, .radio-container label {
    width: 100%;
-  padding: 10px; font-size: 20px;
-  margin-bottom: 20px;
-  border-radius: 5px; margin:  10px;
+   padding: 10px; font-size: 20px;
+   margin-bottom: 20px;
+   border-radius: 5px; margin:  10px;
 }
 .radio-container label:hover , .hold label:hover{color: blue; text-transform: capitalize}
 
@@ -85,7 +101,8 @@ label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:ho
 button {
   background-color: rgb(60, 60, 243);
   color: #fff;
-  padding: 10px 20px; font-size: 20px;
+  padding: 10px 20px; 
+  font-size: 20px;
   border-radius: 5px;
   cursor: pointer; 
 }
