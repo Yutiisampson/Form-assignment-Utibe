@@ -1,4 +1,4 @@
-m{
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -15,6 +15,18 @@ h1 {
 
 }
 
+fieldset {
+  background-color: rgb(195, 195, 255);
+  padding: 20px; 
+  border-radius: 10px;
+ 
+}
+
+
+fieldset input[name="tech_skill"] {
+  position: relative;  margin-right: 10px;
+  top: 2px;
+}
 
 body {
     background-color: rgb(195, 195, 255); 
@@ -54,21 +66,13 @@ label[for="5"],label[for="6"]{
   margin: 0 20px
 }
 
-label[for="1"]:hover,label[for="2"]:hover,label[for="3"]:hover,label[for="4"]:hover,label[for="5"]:hover,label[for="6"]:hover{color: blue; }
+label[for="1"]:hover,label[for="2"]:hover,
+label[for="3"]:hover,label[for="4"]:hover,
+label[for="5"]:hover,label[for="6"]:hover{color: blue; }
 
  
 
-  fieldset {
-    background-color: rgb(195, 195, 255);
-    padding: 20px; 
-    border-radius: 10px;
-  }
-  
 
-  fieldset input[name="tech_skill"] {
-    position: relative;  margin-right: 10px;
-    top: 2px;
-  }
 
   h3{text-align: center;
    margin-top: 20px; font-size: 25px;}
